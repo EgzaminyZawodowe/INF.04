@@ -2,6 +2,14 @@ import math
 
 def printc(msg):
     print(msg, end='')
+    
+# *******************************************************
+# nazwa funkcji:       fill
+# parametry wejściowe: nums - Tablica która ma zostać wypełniona
+# wartość zwracana:    null - Ta funkcja nie zwraca żadnej wartości
+# informacje:          Wypełnia tablicę wartościami z przedziału liczb całkowitych <2:n>
+# autor:               Viktor Chernikov
+# *******************************************************
 def fill(nums):
     x = 0
     while x < n - 1:

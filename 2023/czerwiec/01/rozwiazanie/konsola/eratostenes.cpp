@@ -2,6 +2,13 @@
 
 const int n = 100;
 
+// *******************************************************
+// nazwa funkcji:       fill
+// parametry wejściowe: nums - Tablica która ma zostać wypełniona
+// wartość zwracana:    null - Ta funkcja nie zwraca żadnej wartości
+// informacje:          Wypełnia tablicę wartościami z przedziału liczb całkowitych <2:n>
+// autor:               Viktor Chernikov
+// *******************************************************
 void fill(int* nums)
 {
     for (int i = 0; i < n - 1; ++i)
